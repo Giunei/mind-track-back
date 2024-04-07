@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  postgres_mind_track:
+    container_name: postgres_mind_track
+    image: postgres
+    ports:
+      - "5435:5432"
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=admin
+      - POSTGRES_DB=pg_mind_track
