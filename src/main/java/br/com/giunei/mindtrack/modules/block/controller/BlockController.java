@@ -22,4 +22,5 @@ public class BlockController {
     public List<BlockDTO> findByCategory(@PathVariable UUID categoryID) {
         return findByCategoryUseCase.execute(categoryID);
     }
+
 }

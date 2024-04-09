@@ -28,3 +28,4 @@ public class CategoryEntity {
     @CurrentTimestamp
     private LocalDateTime createdDate;
 }
+//
